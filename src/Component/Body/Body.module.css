@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div{
+    background-color: rgba(241, 235, 253, 255);
+    height: 850px;
+    width: 100%;
+    border-radius: 0px 0px 20% 20%;
+}
