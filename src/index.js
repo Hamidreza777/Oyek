@@ -1,13 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';  
+import ReactDOM from 'react-dom';
+import APP from './App';
 
-const APP=()=>{
-return(
-  <>
-  <h1>salam</h1>
-  </>
-)
-
-
-}
-ReactDOM.render(<APP/>,document.querySelector("body"))
+ReactDOM.render(<APP/>,document.querySelector("body"));
