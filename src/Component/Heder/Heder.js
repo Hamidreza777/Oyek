@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Hedercss from "../Heder/Heder.module.css"
-import logo from "../../pic/logo1.png"
+import logo from "../../pic/logo.png"
 
 const Heder=()=>{
 return(
