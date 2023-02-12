@@ -7,7 +7,7 @@ const Body=()=>{
 return(
    <div>
     <img src={man} alt=""></img>
-        <h1>به ا یک خوش آمدید</h1>
+        <h1>به  یک خوش آمدید</h1>
    </div>
    
 )
