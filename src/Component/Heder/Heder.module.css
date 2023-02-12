@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    direction: rtl;
+}
+body{
+   
+
+}
+
+header{
+    width: 100%;
+    height: 700px;
+    background-color: rgba(137, 43, 226, 0.232);
+    border-radius: 0px 0px 15% 15%;
+}
+.logo{
+    height: 50px;
+}
+ul{
+    width: 500px;
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+background-color: aquamarine;
+   
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    cursor: pointer;
+}
