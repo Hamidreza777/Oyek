@@ -8,3 +8,12 @@ div{
     width: 100%;
     border-radius: 0px 0px 20% 20%;
 }
+
+h1{
+    justify-content: center;
+    display: flex;
+}
+img{
+    justify-content: center;
+    display: flex;
+}
