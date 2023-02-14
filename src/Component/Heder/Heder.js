@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import Hedercss from "../Heder/Heder.module.css"
 import font from "../../font/Yekan.ttf"
 import logo from "../../pic/logo.png"
+import { AiOutlineMenu } from "react-icons/ai";
+import { MdWifiCalling3 } from "react-icons/md";
 
 
 const Heder=()=>{
@@ -20,10 +22,16 @@ return(
 
 
 </ul>
-<b className={Hedercss.call}>تماس:09920136476 </b>
+<b className={Hedercss.call}> <MdWifiCalling3 className= {Hedercss.call1} />مشاوره تلفنی</b>
+
+<AiOutlineMenu className={Hedercss.meno} />
+
+
 </nav>
 
+<div>
 
+</div>
 </header>
 </>
 
