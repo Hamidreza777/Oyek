@@ -29,6 +29,7 @@ return(
          <div className={bodycss.khadamat}>
          </div>
          </center>
+         <p>fflkdfkf</p>
        
    </div>
    
