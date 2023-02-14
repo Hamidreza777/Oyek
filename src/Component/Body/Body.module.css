@@ -3,17 +3,40 @@ body{
     padding: 0;
 }
 div{
-    background-color: rgba(241, 235, 253, 255);
+    background-color: #f1ebfd;
     height: 850px;
     width: 100%;
     border-radius: 0px 0px 20% 20%;
 }
 
 h1{
-    justify-content: center;
-    display: flex;
+
 }
 img{
-    justify-content: center;
-    display: flex;
+
+}
+.contaner{
+   display: flex;
+   justify-content: space-between;
+   
+}
+.image1{
+    height: 400px;
+    width: 400px;
+    background-color: #f1ebfd;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.h{
+    margin-top: 200px;
+    height: 400px;
+    width: 500px;
+    background-color: #f1ebfd; 
+    margin-right: 50px;
+    text-align: center;
+    background-color: aqua;
+   padding: 10px;
+}
+p{
+    
 }
