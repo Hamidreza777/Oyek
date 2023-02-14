@@ -24,19 +24,22 @@ img{
     height: 400px;
     width: 400px;
     background-color: #f1ebfd;
-    margin-top: 100px;
-    margin-left: 100px;
+    margin-top: 130px;
+    margin-left: 13%;
+   
 }
 .h{
     margin-top: 200px;
-    height: 400px;
+    height: 100px;
     width: 500px;
-    background-color: #f1ebfd; 
-    margin-right: 50px;
-    text-align: center;
-    background-color: aqua;
+    
+    margin-right:10%;
+    direction: rtl;
    padding: 10px;
+   position: relative;
 }
-p{
+
+h1{
+    color: #47208e;
     
 }
