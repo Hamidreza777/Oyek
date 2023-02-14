@@ -2,32 +2,75 @@
     margin: 0px;
     padding: 0px;
     direction: rtl;
+    font-family: yekan;
 }
-body{
-   
-
+@font-face {
+    font-family: yekan;
+    src: url(../../font/Yekan.ttf);
 }
 
 header{
+    height: 100px;
     width: 100%;
-    height: 700px;
-    background-color: rgba(137, 43, 226, 0.232);
-    border-radius: 0px 0px 15% 15%;
-}
-.logo{
-    height: 50px;
-}
-ul{
-    width: 500px;
+    background-color: #f1ebfd;
     display: flex;
-   justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-background-color: aquamarine;
+    text-align: center;
+   
+}
+nav{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
    
 }
 ul li{
     list-style-type: none;
 }
-a{
+ul li a{
+    font-size: 17px;
+    font-weight: 900;
+}
+ul li a:hover{
     cursor: pointer;
+}
+ul{
+    position: absolute;
+   width: 30%;
+    display: flex;
+  justify-content: space-evenly;
+  margin-right: 35%;
+  
+    
+}
+
+.logo{
+    height: 70px;
+    width: 100px;
+    
+}
+.call{
+    margin-right: 60%;
+}
+@media (max-width:1020px) {
+    ul{
+        display: none;
+    }
+    .logo{
+        height: 60px;
+    }
+    .call{
+        margin-right: 20%;
+    }
+}
+@media (min-width:1020px) {
+    .logo{
+        margin-right: 10%;
+    }
+  
+
+
+
 }
