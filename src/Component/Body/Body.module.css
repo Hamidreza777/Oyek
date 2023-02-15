@@ -117,8 +117,79 @@ h3{
     font-family: yekan;
     font-size: 20px;
 }
+
 h4{
     font-family: yekan;
     font-size: 20px;
    
+}
+
+
+
+
+/* artin */
+.baner {
+  height: 680px;
+  width: 100%;
+  background-color: #7636ed;
+  position: relative;
+  z-index: -1000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.text {
+  z-index: -1000;
+  height: 200px;
+  width: 30%;
+  margin-top: 15%;
+  margin-right: 15%;
+  font-size: 18px;
+}
+p{
+    color: white;
+}
+h2{
+    color: white;
+}
+.aks img {
+  height: 450px;
+  width: 450px;
+
+  
+}
+.aks{
+    margin-top: 10%;
+    margin-left: 15%;
+}
+@media (max-width:1150px) {
+    .aks img{
+        height: 400px;
+        width: 400px;
+        margin-top: 15%;
+        margin-right: 20%;
+    }
+    .text{
+        width: 30%;
+        height: 250px;
+    }
+}
+@media (max-width:1010px) {
+    .aks img{
+        height: 300px;
+        width: 300px;
+        margin-top: 45%;
+        margin-right: 20%;
+    }
+}
+@media (max-width:750px) {
+    .text{
+        width: 70%;
+        margin-top: 30%;
+        
+    }
+   
+    .baner{
+        height: 980px;
+    }
 }

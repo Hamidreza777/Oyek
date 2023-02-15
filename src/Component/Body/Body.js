@@ -6,6 +6,8 @@ import web from '../../pic/Web design.png'
 import moh from "../../pic/mohtava.png"
 import ux from "../../pic/ux ui.png"
 import seo from "../../pic/seo.png"
+
+import abutus from "../../pic/about us.png"
 const Body=()=>{
 return(
    <div>
@@ -74,6 +76,29 @@ return(
          </div>
         
 
+         <div className={bodycss.baner}>
+    
+    <div className={bodycss.text}>
+<h2>
+که هستیم؟
+</h2>
+<p>
+
+
+برای تغییر این متن بر روی دکمه ویرایش کلیک کنید. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.برای تغییر این متن بر روی دکمه ویرایش کلیک کنید. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+<br></br><br></br>
+برای تغییر این متن بر روی دکمه ویرایش کلیک کنید. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.برای تغییر این متن بر روی دکمه ویرایش کلیک کنید. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+
+</p>
+
+
+
+    </div>
+    
+    <div className={bodycss.aks}>
+      <img src={abutus}></img>
+    </div>
+  </div>
          
          </div>
    </div>
@@ -84,4 +109,5 @@ return(
 
 
 }
+
 export default Body;
