@@ -8,13 +8,15 @@ body {
   font-family: yekan;
 }
 .bb {
-  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   height: 600px;
   width: 100%;
   background-color: #f1ebfd;
   z-index: -10000;
- display: flex;
- 
 }
 
 .tagehp {
@@ -23,23 +25,19 @@ body {
 }
 .matn {
   margin-top: 12%;
-  position: absolute;
   height: 300px;
   width: 500px;
   margin-right: 12%;
   background-color: azure;
 }
-.pic img{
-    
-    height: 300px;
-    width: 300px;
-    
+.pic img {
+  height: 300px;
+  width: 300px;
 }
-.pic{
-    position: absolute;
-    height: 300px;
-    width: 300px;
-    background-color: blue;
+.pic {
+  height: 300px;
+  width: 300px;
+  background-color: blue;
 }
 
 /* artin */
