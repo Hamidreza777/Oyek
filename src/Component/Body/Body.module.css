@@ -1,128 +1,46 @@
-
-body{
-    margin: 0;
-    padding: 0;
-    
+@font-face {
+  font-family: yekan;
+  src: url(../../font/Yekan.ttf);
 }
-.div1{
-    background-color: #f1ebfd;
-    height: 1000px;
-    width: 100%;
-    border-radius: 0px 0px 300px 300px;
-} 
-.contaner{
-    position: relative;
-   display: flex;
-   justify-content: space-between;
-   flex-wrap: wrap;
-   flex-direction: row-reverse;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: yekan;
 }
-.image1{
-    height: 400px;
-    width: 400px;
-    
-    margin-top: 130px;
-    margin-left: 12%;
-   
-}
-.h{
-    margin-top: 200px;
-    height: 100px;
-    width: 500px;
-    
-    margin-right:10%;
-    direction: rtl;
-   padding: 10px;
-   position: relative;
+.bb {
+  position: relative;
+  height: 600px;
+  width: 100%;
+  background-color: #f1ebfd;
+  z-index: -10000;
+ display: flex;
+ 
 }
 
-h1{
-    color: #47208e;
-    font-size: 40px;
-    font-family: yekan;
+.tagehp {
+  font-size: 18px;
+  color: black;
+}
+.matn {
+  margin-top: 12%;
+  position: absolute;
+  height: 300px;
+  width: 500px;
+  margin-right: 12%;
+  background-color: azure;
+}
+.pic img{
+    
+    height: 300px;
+    width: 300px;
     
 }
-p{
-font-size: 20px;
-
-font-family: yekan;
-line-height: 30px;
-}
-h2{
-    font-family: yekan;
+.pic{
     position: absolute;
-    color: #47208e;
-  top: 120%;
-  left: 45%;
+    height: 300px;
+    width: 300px;
+    background-color: blue;
 }
-.khadamat{
-position: absolute;
-   
-   width: 100%;
-   height: 200px;
-   top: 160%;
-   display: flex;
-   flex-wrap: wrap;
-  justify-content: center;
-   
-}
-
-.tarahi{
-    margin-right: 40PX;
-   background-color: white;
-    height: 260px;
-    width: 250px;
-    border-radius: 10px;
-    border: none;
-    box-shadow: 1px 1px 1px 1px  rgb(176, 173, 173);
-    
-
-}
-.ux{
-    background-color: white;
-    height: 260px;
-    width: 250px;
-    border-radius: 10px;
-    margin-right: 40PX;
-    border:none;
-    box-shadow: 1px 1px 1px 1px rgb(176, 173, 173);
-} 
- .seo{
-   background-color: white;
-   height: 260px;
-   width: 250px;
-   border-radius: 10px;
-   margin-right: 40PX;
-   border: none;
-   box-shadow: 1px 1px 1px 1px rgb(176, 173, 173);
-    
-}
-.tolid{
-    background-color: white;
-    height: 260px;
-    width: 250px; 
-    border-radius: 10px;
-    margin-right: 40px;
-    border: none;
-    box-shadow: 1px 1px 1px 1px rgb(176, 173, 173);
-}  
-
-.eraye{
-   top: 10%;
-}
-h3{
-    font-family: yekan;
-    font-size: 20px;
-}
-
-h4{
-    font-family: yekan;
-    font-size: 20px;
-   
-}
-
-
-
 
 /* artin */
 .baner {
@@ -143,50 +61,47 @@ h4{
   margin-right: 15%;
   font-size: 18px;
 }
-p{
-    color: white;
+p {
+  color: white;
 }
-h2{
-    color: white;
+h2 {
+  color: white;
 }
 .aks img {
   height: 450px;
   width: 450px;
+}
+.aks {
+  margin-top: 10%;
+  margin-left: 15%;
+}
+@media (max-width: 1150px) {
+  .aks img {
+    height: 400px;
+    width: 400px;
+    margin-top: 15%;
+    margin-right: 20%;
+  }
+  .text {
+    width: 30%;
+    height: 250px;
+  }
+}
+@media (max-width: 1010px) {
+  .aks img {
+    height: 300px;
+    width: 300px;
+    margin-top: 45%;
+    margin-right: 20%;
+  }
+}
+@media (max-width: 750px) {
+  .text {
+    width: 70%;
+    margin-top: 30%;
+  }
 
-  
-}
-.aks{
-    margin-top: 10%;
-    margin-left: 15%;
-}
-@media (max-width:1150px) {
-    .aks img{
-        height: 400px;
-        width: 400px;
-        margin-top: 15%;
-        margin-right: 20%;
-    }
-    .text{
-        width: 30%;
-        height: 250px;
-    }
-}
-@media (max-width:1010px) {
-    .aks img{
-        height: 300px;
-        width: 300px;
-        margin-top: 45%;
-        margin-right: 20%;
-    }
-}
-@media (max-width:750px) {
-    .text{
-        width: 70%;
-        margin-top: 30%;
-        
-    }
-   
-    .baner{
-        height: 980px;
-    }
+  .baner {
+    height: 980px;
+  }
 }
