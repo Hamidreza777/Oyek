@@ -10,12 +10,10 @@ import abutus from "../../pic/about us.png";
 const Body = () => {
   return (
     <>
+    
       <div className={bodycss.bb}>
-   
-
-
         <div className={bodycss.matn}>
-         <h1>به اُ یک خوش آمدید</h1>
+          <h1>به اُ یک خوش آمدید</h1>
           <br></br>
           <p className={bodycss.tagehp}>
             برای تغییر این متن بر روی دکمه ویرایش کلیک کنید. لورم ایپسوم متن
@@ -25,13 +23,23 @@ const Body = () => {
             طراحان گرافیک است. برای تغییر این متن بر روی دکمه ویرایش کلیک کنید.
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
             استفاده از طراحان گرافیک است.
-          </p> 
+          </p>
         </div>
         <div className={bodycss.pic}>
-<img src={man}></img>
-
-
+          <img src={man}></img>
         </div>
+   
+<div className={bodycss.khadamat}>  
+
+<div className={bodycss.seo}></div>
+<div className={bodycss.mohtava}></div>
+<div className={bodycss.uiux}></div>
+<div className={bodycss.desing}></div>
+
+
+</div>
+
+
       </div>
 
       <div className={bodycss.baner}>
