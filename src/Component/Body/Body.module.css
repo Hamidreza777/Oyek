@@ -104,35 +104,46 @@ h6 {
 /* marahel */ /* ---------------------------------------------------------------- */
 .marahel {
   height: 300px;
-  width: 100%;
-
+  width: 85%;
   text-align: center;
   align-items: center;
-
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+margin-right: 7%;
 }
 .div11 {
   margin-top: 5%;
   height: 400px;
   width: 400px;
-  box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.515);
   border-radius: 50% 50% 0 0;
+
+  background: rgb(208,253,255);
+  background: linear-gradient(180deg, rgba(208,253,255,1) 0%, rgba(255,255,255,1) 100%);
+  
 }
 .div22 {
   margin-top: 5%;
   height: 400px;
   width: 400px;
-  box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.515);
+
   border-radius: 50% 50% 0 0;
+
+  background: rgb(254,238,205);
+  background: linear-gradient(180deg, rgba(254,238,205,1) 0%, rgba(255,255,255,1) 100%);
+  
+
 }
 .div33 {
   margin-top: 5%;
   height: 400px;
   width: 400px;
-  box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.515);
   border-radius: 50% 50% 0 0;
+  
+  
+  background: rgb(220,245,210);
+background: linear-gradient(180deg, rgba(220,245,210,1) 0%, rgba(220,245,210,1) 1%, rgba(255,255,255,1) 100%);
+
 }
 
 .div11 img {
@@ -297,4 +308,17 @@ h2 {
   h6 {
     margin-top: 230%;
   }
+.div11{
+  margin-top: 15%;
+}
+.div22{
+  margin-top: 15%;
+}.div33{
+  margin-top: 15%;
+}
+
+
+
+
+
 }
