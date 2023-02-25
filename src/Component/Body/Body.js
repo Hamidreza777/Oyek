@@ -6,6 +6,9 @@ import uxui from "../../pic/ux ui.png";
 import seo from "../../pic/seo.png";
 import mohtava from "../../pic/mohtava.png";
 import abutus from "../../pic/about us.png";
+import pic from "../../pic/11.png";
+import pic1 from "../../pic/33.png";
+
 const Body = () => {
   return (
     <>
@@ -23,12 +26,11 @@ const Body = () => {
             استفاده از طراحان گرافیک است.
           </p>
         </div>
-      
+
         <div className={bodycss.pic}>
           <img src={man}></img>
         </div>
-        
-        
+
         <div className={bodycss.khadamat}>
           <div className={bodycss.seo}>
             <img src={seo}></img>
@@ -51,8 +53,8 @@ const Body = () => {
           </div>
         </div>
       </div>
-     
 
+      <h6>درباره ما</h6>
       <div className={bodycss.baner}>
         <div className={bodycss.text}>
           <h2>که هستیم؟</h2>
@@ -74,6 +76,27 @@ const Body = () => {
 
         <div className={bodycss.aks}>
           <img src={abutus}></img>
+        </div>
+      </div>
+      <div className={bodycss.titr}>
+        <h6>مراحل طراحی سایت</h6>
+      </div>
+
+      <div className={bodycss.marahel}>
+        <div className={bodycss.div11}>
+          <img src={pic}></img>
+          <h4>دریافت خلاصه و بریف پروژه</h4>
+          <strong>برای تغییر این متن بر روی دکمه ویرایش کلیک کنید. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</strong>
+        </div>
+        <div className={bodycss.div22}>
+          <img src={pic1}></img>
+          <h4>ارائه نسخه اولیه</h4>
+          <strong>برای تغییر این متن بر روی دکمه ویرایش کلیک کنید. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</strong>
+        </div>
+        <div className={bodycss.div33}>
+          <img src={pic}></img>
+          <h4>ارائه نسخه اولیه</h4>
+          <strong>برای تغییر این متن بر روی دکمه ویرایش کلیک کنید. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</strong>
         </div>
       </div>
     </>
