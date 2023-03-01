@@ -1,129 +1,170 @@
+@font-face {
+  font-family: yekan;
+  src: url(../../font/Yekan.ttf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: yekan;
+}
+.bb {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
 
-body{
-    margin: 0;
-    padding: 0;
-    
+  height: 777px;
+  width: 100%;
+  background-color: #f1ebfd;
+  z-index: -10000;
+  border-radius: 0 0 200px 200px;
 }
-.div1{
-    background-color: #f1ebfd;
-    height: 1000px;
-    width: 100%;
-    border-radius: 0px 0px 300px 300px;
-} 
-.contaner{
-    position: relative;
-   display: flex;
-   justify-content: space-between;
-   flex-wrap: wrap;
-   flex-direction: row-reverse;
+h1 {
+  color: #47208e;
 }
-.image1{
-    height: 400px;
-    width: 400px;
-    
-    margin-top: 130px;
-    margin-left: 12%;
-   
+.tagehp {
+  font-size: 18px;
+  color: black;
 }
-.h{
-    margin-top: 200px;
-    height: 100px;
-    width: 500px;
-    
-    margin-right:10%;
-    direction: rtl;
-   padding: 10px;
-   position: relative;
+.matn {
+  margin-top: 13%;
+  height: 300px;
+  width: 500px;
 }
+.pic img {
+  margin-top: 35%;
+  height: 450px;
+  width: 320px;
+}
+.khadamat {
+  height: 150px;
+  width: 85%;
+  text-align: center;
 
-h1{
-    color: #47208e;
-    font-size: 40px;
-    font-family: yekan;
-    
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
 }
-p{
-font-size: 20px;
-
-font-family: yekan;
-line-height: 30px;
+.khadamat img {
+  margin-top: 20%;
 }
-h2{
-    font-family: yekan;
-    position: absolute;
-    color: #47208e;
-  top: 120%;
-  left: 45%;
-}
-.khadamat{
-position: absolute;
-   
-   width: 100%;
-   height: 200px;
-   top: 160%;
-   display: flex;
-   flex-wrap: wrap;
-  justify-content: center;
-   
+h4 {
+  color: black;
+  margin-top: 10%;
 }
 
-.tarahi{
-    margin-right: 40PX;
-   background-color: white;
-    height: 260px;
-    width: 250px;
-    border-radius: 10px;
-    border: none;
-    box-shadow: 1px 1px 1px 1px  rgb(176, 173, 173);
-    
+.seo {
+  height: 250px;
+  width: 220px;
+  background-color: white;
+  border-radius: 18px;
+  box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.515);
+}
+.mohtava {
+  margin-top: 3%;
+  height: 250px;
+  width: 220px;
+  background-color: white;
+  border-radius: 18px;
+  box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.515);
+}
+.uiux {
+  margin-top: 3%;
+  height: 250px;
+  width: 220px;
+  background-color: white;
+  border-radius: 18px;
+  box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.515);
+}
+.desing {
+  height: 250px;
+  width: 220px;
+  background-color: white;
+  border-radius: 18px;
+  box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.515);
+}
+h5 {
+  font-size: 17px;
+  font-weight: 900;
+  margin-top: 15%;
+}
+h6 {
+  margin-top: 15%;
+  text-align: center;
+  font-size: 40px;
+  color: #47208e;
+}
+.titr h6 {
+  margin-top: 5%;
+  text-align: center;
+  font-size: 40px;
+  color: #47208e;
+}
+/* marahel */ /* ---------------------------------------------------------------- */
+.marahel {
+  height: 300px;
+  width: 85%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+margin-right: 7%;
+}
+.div11 {
+  margin-top: 5%;
+  height: 400px;
+  width: 350px;
+  border-radius: 50% 50% 0 0;
+
+  background: rgb(208,253,255);
+  background: linear-gradient(180deg, rgba(208,253,255,1) 0%, rgba(255,255,255,1) 100%);
+  
+}
+.div22 {
+  margin-top: 5%;
+  height: 400px;
+  width: 350px;
+
+  border-radius: 50% 50% 0 0;
+
+  background: rgb(254,238,205);
+  background: linear-gradient(180deg, rgba(254,238,205,1) 0%, rgba(255,255,255,1) 100%);
+  
 
 }
-.ux{
-    background-color: white;
-    height: 260px;
-    width: 250px;
-    border-radius: 10px;
-    margin-right: 40PX;
-    border:none;
-    box-shadow: 1px 1px 1px 1px rgb(176, 173, 173);
-} 
- .seo{
-   background-color: white;
-   height: 260px;
-   width: 250px;
-   border-radius: 10px;
-   margin-right: 40PX;
-   border: none;
-   box-shadow: 1px 1px 1px 1px rgb(176, 173, 173);
-    
-}
-.tolid{
-    background-color: white;
-    height: 260px;
-    width: 250px; 
-    border-radius: 10px;
-    margin-right: 40px;
-    border: none;
-    box-shadow: 1px 1px 1px 1px rgb(176, 173, 173);
-}  
+.div33 {
+  margin-top: 5%;
+  height: 400px;
+  width: 350px;
+  border-radius: 50% 50% 0 0;
+  
+  
+  background: rgb(220,245,210);
+background: linear-gradient(180deg, rgba(220,245,210,1) 0%, rgba(220,245,210,1) 1%, rgba(255,255,255,1) 100%);
 
-.eraye{
-   top: 10%;
-}
-h3{
-    font-family: yekan;
-    font-size: 20px;
 }
 
+.div11 img {
+  margin-top: 10%;
+}
+.div22 img {
+  margin-top: 10%;
+}
+.div33 img {
+  margin-top: 10%;
+}
+strong{
+  font-family: yekan;
+  font-size: 20px;
+
+}
 h4{
-    font-family: yekan;
-    font-size: 20px;
-   
+  font-family: yekan;
+  font-size: 25px;
+  padding-bottom: 10%;
 }
-
-
-
-
 /* artin */
 .baner {
   height: 680px;
@@ -134,6 +175,7 @@ h4{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: 5%;
 }
 .text {
   z-index: -1000;
@@ -143,50 +185,140 @@ h4{
   margin-right: 15%;
   font-size: 18px;
 }
-p{
-    color: white;
+p {
+  color: white;
 }
-h2{
-    color: white;
+h2 {
+  color: white;
 }
 .aks img {
   height: 450px;
   width: 450px;
+}
+.aks {
+  margin-top: 10%;
+  margin-left: 15%;
+}
+@media (max-width: 1150px) {
+  .aks img {
+    height: 400px;
+    width: 400px;
+    margin-top: 15%;
+    margin-right: 20%;
+  }
+  .text {
+    width: 30%;
+    height: 250px;
+  }
+  h6 {
+    margin-top: 40%;
+  }
+}
+@media (max-width: 1010px) {
+  .aks img {
+    height: 300px;
+    width: 300px;
+    margin-top: 45%;
+    margin-right: 20%;
+  }
 
-  
-}
-.aks{
+  .baner {
+    height: 980px;
     margin-top: 10%;
-    margin-left: 15%;
+  }
+  .bb {
+    height: 1300px;
+  }
+  .matn {
+    margin-top: 30%;
+    padding: 30px;
+  }
+  .desing {
+    margin-top: 10px;
+    width: 80%;
+  }
+  .mohtava {
+    width: 80%;
+  }
+  .uiux {
+    width: 80%;
+  }
+  .seo {
+    width: 80%;
+  }
+  .bb {
+    border-radius: 0 0 50px 50px;
+  }
+  .khadamat img {
+    margin-top: 10%;
+  }
+  h5 {
+    margin-top: 8%;
+  }
+  .khadamat {
+    margin-top: 20%;
+  }
+  h6 {
+    margin-top: 100%;
+  }
 }
-@media (max-width:1150px) {
-    .aks img{
-        height: 400px;
-        width: 400px;
-        margin-top: 15%;
-        margin-right: 20%;
-    }
-    .text{
-        width: 30%;
-        height: 250px;
-    }
+@media (max-width: 750px) {
+  .text {
+    width: 70%;
+    margin-top: 30%;
+  }
+
+  .baner {
+    height: 980px;
+    margin-top: 10%;
+  }
+  .bb {
+    height: 1300px;
+  }
+  .matn {
+    margin-top: 30%;
+    padding: 30px;
+  }
+  .desing {
+    margin-top: 10px;
+    width: 80%;
+  }
+  .mohtava {
+    width: 80%;
+  }
+  .uiux {
+    width: 80%;
+  }
+  .seo {
+    width: 80%;
+  }
+  .bb {
+    border-radius: 0 0 50px 50px;
+  }
+  .khadamat img {
+    margin-top: 10%;
+  }
+  h5 {
+    margin-top: 8%;
+  }
+  .khadamat {
+    margin-top: 20%;
+  }
+
+  h6 {
+    margin-top: 230%;
+  }
+.div11{
+  margin-top: 15%;
 }
-@media (max-width:1010px) {
-    .aks img{
-        height: 300px;
-        width: 300px;
-        margin-top: 45%;
-        margin-right: 20%;
-    }
+.div22{
+  margin-top: 15%;
+}.div33{
+  margin-top: 15%;
 }
-@media (max-width:750px) {
-    .text{
-        width: 70%;
-        margin-top: 30%;
-        
-    }
-   
-    .baner{
-        height: 980px;
-    }
+
+
+
+
+
 }

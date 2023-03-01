@@ -1,0 +1,80 @@
+@font-face {
+    font-family: ekan;
+    src: url(../../font/Yekan.ttf);
+}
+
+footer{
+    height: 350px;
+    width: 100%;
+    background-color: #f1ebfd;
+    margin-top: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+ 
+}
+.text{
+    margin-top: 1%;
+height: 300px;
+width: 350px;
+
+
+}
+.text p{
+    color: black;
+   padding-top: 5%;
+   font-family: ekan;
+   font-size: 20px;
+}
+.text h3{
+    padding-top: 20%;
+}
+.logo{
+    height: 300px;
+    width: 300px;
+    
+    margin-top: 1%;
+
+}
+.logo img{
+    height: 150px;
+    padding-top: 25%;
+}
+.shabakeh{
+    height: 300px;
+    width: 300px;
+ 
+    margin-top: 1%;
+    font-size: 30px;
+
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:1240px) {
+    footer{
+        margin-top: 70%;
+      }
+}  
+
+
+@media (max-width:768px) {
+    footer{
+       margin-top: 260%;
+        height: 900px;
+    }
+}
+ 
